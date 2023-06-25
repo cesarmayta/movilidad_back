@@ -7,3 +7,5 @@ class ParentescoSerializer(serializers.ModelSerializer):
     class Meta:
         model = TblParentesco
         fields = '__all__'
+        
+   
