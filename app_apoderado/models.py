@@ -162,6 +162,9 @@ class TblParentesco(models.Model):
     class Meta:
         managed = False
         db_table = 'tbl_parentesco'
+        
+    def __str__(self):
+        return self.parentesco_nombre
 
 
 class TblTipoMantenimiento(models.Model):

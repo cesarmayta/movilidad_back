@@ -8,5 +8,8 @@ router = DefaultRouter()
 router.register(r'parentesco',
                 views.ParentescoViewSet,
                 basename='parentesco')
+router.register(r'apoderado',
+                views.ApoderadoViewSet,
+                basename='apoderado')
 
 urlpatterns = router.urls
